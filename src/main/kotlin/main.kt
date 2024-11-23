@@ -2,7 +2,7 @@ import kotlin.math.max
 
 fun main() {
     val userMoney = 60_000
-    val card = "Visa"
+    val card = "Maestro"
     val amountOfPreviousTransfers = 16_000
     val result = transferMoney(card, amountOfPreviousTransfers, userMoney)
     println(result)
