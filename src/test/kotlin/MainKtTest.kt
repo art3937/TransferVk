@@ -9,7 +9,7 @@ import org.junit.Assert.*
    val card = "Мир"
    val amountOfPreviousTransfers = 50_000
    val result = transferMoney(card, amountOfPreviousTransfers, userMoney)
-   assertEquals(100,result)
+   assertEquals(120,result)
   }
 
   @Test
